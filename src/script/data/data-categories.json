@@ -1,0 +1,33 @@
+{
+    "categories": [{
+            "name": "For eyes",
+            "items": [
+                "Mascara",
+                "Eyeliner",
+                "Eyebrow",
+                "Eyeshadow",
+                "Eyelashes"
+            ]
+        },
+        {
+            "name": "For Lips",
+            "items": [
+                "Lipstick",
+                "Lipbalm",
+                "Lipgloss",
+                "Lipliner"
+            ]
+        },
+        {
+            "name": "For Face",
+            "items": [
+                "Foundation",
+                "Face Powder",
+                "Brush on",
+                "Highlighter",
+                "Concealer",
+                "Conture Pallete"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>makeup</title>
+    <style>
+        @media screen and (max-width: 600px) {
+            .side-bar {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav-bar></nav-bar>
+    <div class="container">
+        <search-bar></search-bar>
+        <div class="d-flex">
+            <side-bar class="side-bar"></side-bar>
+            <div id="loader-text" style="display: none; margin:1rem">
+                <p>Loading . . .</p>
+            </div>
+            <item-list></item-list>
+        </div>
+    </div>
+
+</body>
+
+</html>

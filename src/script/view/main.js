@@ -16,6 +16,7 @@ const main = () => {
             loaderElement.style.display = 'none';
         } catch (message) {
             fallbackResult(message)
+            loaderElement.style.display = 'none';
         }
     };
 

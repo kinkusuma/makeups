@@ -34,8 +34,8 @@ class SideBar extends HTMLElement {
             category.items.map((item) => {
                 htmlContent += `
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault">
+                  <input class="form-check-input" type="checkbox">
+                  <label class="form-check-label">
                     ${item}
                   </label>
                 </div>`;
